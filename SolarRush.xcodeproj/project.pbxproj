@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0255E6CC6ECE76A9F5C04BC3 /* ShipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721BB3C7876E0921918A3C51 /* ShipModels.swift */; };
+		0B9C049489AE8D3CDC1CF792 /* SolarRushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2B5F56A94488DD38DFF9E /* SolarRushApp.swift */; };
+		1B2DCC0CBA8F5760602BACD9 /* CoreVictoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53CFC040B9F10F38185969 /* CoreVictoryModel.swift */; };
+		3540F0F2700B99E12963787C /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B01A1A6D8C7FB21B6DA6C /* AudioManager.swift */; };
+		3C52B5820DE5A53BBB9F88DB /* StardustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1EB91E12045E43C8FE27E /* StardustManager.swift */; };
+		42B3118E837FF36717911FAF /* RadialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04A9353CF903A24BF6359B /* RadialMenuView.swift */; };
+		44E0D2A2483761A8E275C7A2 /* SolarRushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2B5F56A94488DD38DFF9E /* SolarRushApp.swift */; };
+		4BA05DAA48DDC0D52C0BECDD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87160FF62E6D97258999550C /* GameScene.swift */; };
+		6229AE8FEB160103AB6263E9 /* CardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B723F318FFFE010D4688DD /* CardModels.swift */; };
+		6FC4C402EF08FD4B7B4C886E /* PassAndPlayHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A1D21575314FEE137AAAC /* PassAndPlayHUD.swift */; };
+		77E7E5E46612066B4E92EE49 /* PassAndPlayHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A1D21575314FEE137AAAC /* PassAndPlayHUD.swift */; };
+		8CB278A798DB16B0FE611044 /* FactionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D66513A40AAAA01455E783 /* FactionModels.swift */; };
+		931FD87D876047703DDB675C /* BuildSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591172BA5D2FEFF55D1B2D8 /* BuildSheetView.swift */; };
+		9B43E8FD097BBFE9E73EA253 /* StardustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E1EB91E12045E43C8FE27E /* StardustManager.swift */; };
+		A0D1C121DC88172F2943D976 /* CoreVictoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53CFC040B9F10F38185969 /* CoreVictoryModel.swift */; };
+		A6EF99A51C9DBBED0507D625 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87160FF62E6D97258999550C /* GameScene.swift */; };
+		A9666CAE81FEA4DB0921ACB2 /* FactionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D66513A40AAAA01455E783 /* FactionModels.swift */; };
+		AD73134CD173F7A120C62EFA /* CombatOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342DD9CFE4AC3B5BD3DDF17 /* CombatOverlayView.swift */; };
+		AF60D37339723C0B2004EE6F /* ShipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721BB3C7876E0921918A3C51 /* ShipModels.swift */; };
+		C86E10DC1928A83EBE6135D6 /* PlayIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D97C63321873BE5281C58 /* PlayIdentity.swift */; };
+		DA4B3629308FAF4F0041D475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4B3628308FAF4F0041D475 /* Assets.xcassets */; };
+		DA4B362A308FAF4F0041D475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4B3628308FAF4F0041D475 /* Assets.xcassets */; };
+		E41361224672BEFD7C8FC554 /* RadialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04A9353CF903A24BF6359B /* RadialMenuView.swift */; };
+		E47564F4A81B797C4BBF5EAA /* CardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B723F318FFFE010D4688DD /* CardModels.swift */; };
+		E78F665D81C85B81C3F51A4F /* FactionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2413D45C4D1BA875ED75332 /* FactionSelectionView.swift */; };
+		EBA4EFAE44EC8B047AA1EA42 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B01A1A6D8C7FB21B6DA6C /* AudioManager.swift */; };
+		F0B2E38F1FFE8FE27B91A4D1 /* BuildSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591172BA5D2FEFF55D1B2D8 /* BuildSheetView.swift */; };
+		F33878176B348D25CDD7F469 /* PlayIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D97C63321873BE5281C58 /* PlayIdentity.swift */; };
+		F886CFD316B4F6AF36D7E61E /* FactionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2413D45C4D1BA875ED75332 /* FactionSelectionView.swift */; };
+		FF72EC218C43EF1182CB822E /* CombatOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342DD9CFE4AC3B5BD3DDF17 /* CombatOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B723F318FFFE010D4688DD /* CardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModels.swift; sourceTree = "<group>"; };
+		08E1EB91E12045E43C8FE27E /* StardustManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardustManager.swift; sourceTree = "<group>"; };
+		1F04A9353CF903A24BF6359B /* RadialMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenuView.swift; sourceTree = "<group>"; };
+		3B003EB9CE5BF19C64DD1F04 /* SolarRush.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SolarRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2D97C63321873BE5281C58 /* PlayIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayIdentity.swift; sourceTree = "<group>"; };
+		58D66513A40AAAA01455E783 /* FactionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionModels.swift; sourceTree = "<group>"; };
+		721BB3C7876E0921918A3C51 /* ShipModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipModels.swift; sourceTree = "<group>"; };
+		87160FF62E6D97258999550C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A2413D45C4D1BA875ED75332 /* FactionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionSelectionView.swift; sourceTree = "<group>"; };
+		A591172BA5D2FEFF55D1B2D8 /* BuildSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSheetView.swift; sourceTree = "<group>"; };
+		A5AFD03B7779C9B2B41A4294 /* SolarRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B01A1A6D8C7FB21B6DA6C /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		D61A1D21575314FEE137AAAC /* PassAndPlayHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassAndPlayHUD.swift; sourceTree = "<group>"; };
+		DA4B3628308FAF4F0041D475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E342DD9CFE4AC3B5BD3DDF17 /* CombatOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatOverlayView.swift; sourceTree = "<group>"; };
+		EBE2B5F56A94488DD38DFF9E /* SolarRushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarRushApp.swift; sourceTree = "<group>"; };
+		EC53CFC040B9F10F38185969 /* CoreVictoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVictoryModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AC84B374C48AD92369D32F5 = {
+			isa = PBXGroup;
+			children = (
+				DA4B3628308FAF4F0041D475 /* Assets.xcassets */,
+				B0E4E1042E462215C01DFBB8 /* Sources */,
+				7310CA8D8052ABB8E0F8EC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8F2004377A4ABF89DFAB6C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D40B01A1A6D8C7FB21B6DA6C /* AudioManager.swift */,
+				87160FF62E6D97258999550C /* GameScene.swift */,
+				D3A2AC41E9209C8BB6B5A925 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2BC68809B6021A00FAFF487B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2B5F56A94488DD38DFF9E /* SolarRushApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7310CA8D8052ABB8E0F8EC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B003EB9CE5BF19C64DD1F04 /* SolarRush.app */,
+				A5AFD03B7779C9B2B41A4294 /* SolarRush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92666C19EB2B597AD0795CD3 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				A591172BA5D2FEFF55D1B2D8 /* BuildSheetView.swift */,
+				E342DD9CFE4AC3B5BD3DDF17 /* CombatOverlayView.swift */,
+				A2413D45C4D1BA875ED75332 /* FactionSelectionView.swift */,
+				1F04A9353CF903A24BF6359B /* RadialMenuView.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		969CA6D9BABF5C3D9D8A2798 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A536DE9DFAF9081561C9AFD5 /* HUD */,
+				92666C19EB2B597AD0795CD3 /* Menus */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A536DE9DFAF9081561C9AFD5 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				D61A1D21575314FEE137AAAC /* PassAndPlayHUD.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		B0E4E1042E462215C01DFBB8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2BC68809B6021A00FAFF487B /* App */,
+				1B8F2004377A4ABF89DFAB6C /* Core */,
+				969CA6D9BABF5C3D9D8A2798 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D3A2AC41E9209C8BB6B5A925 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00B723F318FFFE010D4688DD /* CardModels.swift */,
+				EC53CFC040B9F10F38185969 /* CoreVictoryModel.swift */,
+				58D66513A40AAAA01455E783 /* FactionModels.swift */,
+				3C2D97C63321873BE5281C58 /* PlayIdentity.swift */,
+				721BB3C7876E0921918A3C51 /* ShipModels.swift */,
+				08E1EB91E12045E43C8FE27E /* StardustManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076363EDA2F65B9EF330313D /* SolarRush_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E0F043D9ECB3F3ECF29C6A /* Build configuration list for PBXNativeTarget "SolarRush_iOS" */;
+			buildPhases = (
+				DF5D751FE087F33408FE26DE /* Sources */,
+				46430E604B05AACD3B787286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarRush_iOS;
+			packageProductDependencies = (
+			);
+			productName = SolarRush_iOS;
+			productReference = 3B003EB9CE5BF19C64DD1F04 /* SolarRush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2721AF3162CF892C654E2D5A /* SolarRush_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33134F476AB35DF35D4E8A5 /* Build configuration list for PBXNativeTarget "SolarRush_macOS" */;
+			buildPhases = (
+				823A7E0B8001F35B8199D858 /* Sources */,
+				4CDBC0D9974E366BAFAA9886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarRush_macOS;
+			packageProductDependencies = (
+			);
+			productName = SolarRush_macOS;
+			productReference = A5AFD03B7779C9B2B41A4294 /* SolarRush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558EC52568AE42800AB731D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 70CBB3F326B62E9A910C5D2B /* Build configuration list for PBXProject "SolarRush" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1AC84B374C48AD92369D32F5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7310CA8D8052ABB8E0F8EC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076363EDA2F65B9EF330313D /* SolarRush_iOS */,
+				2721AF3162CF892C654E2D5A /* SolarRush_macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46430E604B05AACD3B787286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B362A308FAF4F0041D475 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDBC0D9974E366BAFAA9886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B3629308FAF4F0041D475 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823A7E0B8001F35B8199D858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA4EFAE44EC8B047AA1EA42 /* AudioManager.swift in Sources */,
+				931FD87D876047703DDB675C /* BuildSheetView.swift in Sources */,
+				6229AE8FEB160103AB6263E9 /* CardModels.swift in Sources */,
+				FF72EC218C43EF1182CB822E /* CombatOverlayView.swift in Sources */,
+				1B2DCC0CBA8F5760602BACD9 /* CoreVictoryModel.swift in Sources */,
+				8CB278A798DB16B0FE611044 /* FactionModels.swift in Sources */,
+				F886CFD316B4F6AF36D7E61E /* FactionSelectionView.swift in Sources */,
+				4BA05DAA48DDC0D52C0BECDD /* GameScene.swift in Sources */,
+				77E7E5E46612066B4E92EE49 /* PassAndPlayHUD.swift in Sources */,
+				C86E10DC1928A83EBE6135D6 /* PlayIdentity.swift in Sources */,
+				42B3118E837FF36717911FAF /* RadialMenuView.swift in Sources */,
+				0255E6CC6ECE76A9F5C04BC3 /* ShipModels.swift in Sources */,
+				0B9C049489AE8D3CDC1CF792 /* SolarRushApp.swift in Sources */,
+				3C52B5820DE5A53BBB9F88DB /* StardustManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5D751FE087F33408FE26DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3540F0F2700B99E12963787C /* AudioManager.swift in Sources */,
+				F0B2E38F1FFE8FE27B91A4D1 /* BuildSheetView.swift in Sources */,
+				E47564F4A81B797C4BBF5EAA /* CardModels.swift in Sources */,
+				AD73134CD173F7A120C62EFA /* CombatOverlayView.swift in Sources */,
+				A0D1C121DC88172F2943D976 /* CoreVictoryModel.swift in Sources */,
+				A9666CAE81FEA4DB0921ACB2 /* FactionModels.swift in Sources */,
+				E78F665D81C85B81C3F51A4F /* FactionSelectionView.swift in Sources */,
+				A6EF99A51C9DBBED0507D625 /* GameScene.swift in Sources */,
+				6FC4C402EF08FD4B7B4C886E /* PassAndPlayHUD.swift in Sources */,
+				F33878176B348D25CDD7F469 /* PlayIdentity.swift in Sources */,
+				E41361224672BEFD7C8FC554 /* RadialMenuView.swift in Sources */,
+				AF60D37339723C0B2004EE6F /* ShipModels.swift in Sources */,
+				44E0D2A2483761A8E275C7A2 /* SolarRushApp.swift in Sources */,
+				9B43E8FD097BBFE9E73EA253 /* StardustManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		114E15CAA2667915C7772F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A464482868C3402E4B2DC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		74A6427D5899AF8D8F934C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DERIVED_DATA_DIR = Build;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = E5YV4NK229;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.wanaka.SolarRush;
+				PRODUCT_NAME = SolarRush;
+				SDKROOT = macosx;
+				SUPPORTS_MACCATALYST = YES;
+			};
+			name = Debug;
+		};
+		8548A5E672F5457408A72F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DERIVED_DATA_DIR = Build;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.wanaka.SolarRush;
+				PRODUCT_NAME = SolarRush;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CF767D55A02FB8A2BC43D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DERIVED_DATA_DIR = Build;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.wanaka.SolarRush;
+				PRODUCT_NAME = SolarRush;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB9131FFF138C84AA929AB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DERIVED_DATA_DIR = Build;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = E5YV4NK229;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.wanaka.SolarRush;
+				PRODUCT_NAME = SolarRush;
+				SDKROOT = macosx;
+				SUPPORTS_MACCATALYST = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CBB3F326B62E9A910C5D2B /* Build configuration list for PBXProject "SolarRush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A464482868C3402E4B2DC61 /* Debug */,
+				114E15CAA2667915C7772F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C33134F476AB35DF35D4E8A5 /* Build configuration list for PBXNativeTarget "SolarRush_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A6427D5899AF8D8F934C24 /* Debug */,
+				FB9131FFF138C84AA929AB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4E0F043D9ECB3F3ECF29C6A /* Build configuration list for PBXNativeTarget "SolarRush_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF767D55A02FB8A2BC43D79 /* Debug */,
+				8548A5E672F5457408A72F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558EC52568AE42800AB731D4 /* Project object */;
+}
